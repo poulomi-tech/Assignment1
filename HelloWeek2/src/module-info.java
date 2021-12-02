@@ -1,0 +1,2 @@
+module HelloWeek2 {
+}
