@@ -64,10 +64,30 @@ public class Driver {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		AdminDepartment obj1 = new AdminDepartment();
-		obj1.DepartmenttName();
-		obj1.getTodaysWork();
-		obj1.getWorkDeadline();
+		System.out.println(obj1.DepartmenttName());
+		System.out.println(obj1.getTodaysWork());
+		System.out.println(obj1.getWorkDeadline());
+		System.out.println(obj1.isTodayAHoliday());
 		
+		System.out.println();
+		System.out.println();
+		
+		HrDepartmemt obj2 = new HrDepartmemt();
+		System.out.println(obj2.DepartmenttName());
+		System.out.println(obj2.getTodaysWork());
+		System.out.println(obj2.getWorkDeadline());
+		System.out.println(obj2.doActivity());
+		System.out.println(obj2.isTodayAHoliday());
+		
+		System.out.println();
+		System.out.println();
+		
+	    TechDepartment obj3 = new TechDepartment();
+		System.out.println(obj3.DepartmenttName());
+		System.out.println(obj3.getTodaysWork());
+		System.out.println(obj3.getWorkDeadline());
+		System.out.println(obj3.getTechStackInformation());
+		System.out.println(obj3.isTodayAHoliday());
 	}
 
 }
